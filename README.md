@@ -17,7 +17,8 @@ cat /var/log/secure* |grep ftp |grep Accept
 
 # Process List:
 
-ps -elf OR ps auxf
+ps -elf 
+ps auxf
 ls /proc/*/exe -la 
 
 
