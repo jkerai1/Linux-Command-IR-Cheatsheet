@@ -37,9 +37,9 @@ find / -mtime -o -ctime -5
 sudo chkrootkit (sudo apt install chkrootkit)
 
 # Check common files, see what doesn't belong:
-ls /tmp -lab
-ls /var/tmp -lab
-ls /dev/shm -lab 
+ls /tmp -lab  
+ls /var/tmp -lab  
+ls /dev/shm -lab    
 
 # Logs: 
 cd /var/log  
