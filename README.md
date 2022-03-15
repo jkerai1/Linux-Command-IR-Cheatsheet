@@ -22,7 +22,7 @@ ps auxf
 ls /proc/*/exe -la   
 
 
-# Bash History
+# Bash History:
 cat .bash_history 
 su <user> then history
 
@@ -60,7 +60,7 @@ cat /var/log/wtmp    - login records
 cat /var/log/ufw  - firewall log  
 cat /var/log/dpkg.log  - package log  
 
-# Services
+# Services:
 service --status-all | column  
   
 # Check kernel matches OS:  
@@ -68,7 +68,7 @@ service --status-all | column
 uname -a   
 cat/proc/version  
   
-# journalctl  
+# journalctl:  
 journalctl -u networking.service  
 journalctl --since "2018-10-16 13:28"  
 
