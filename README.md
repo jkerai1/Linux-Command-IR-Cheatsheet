@@ -10,7 +10,7 @@ cat etc/passwd
 netstat -natp (display all,address port,offload state,proto)
 netstat -la | grep “LISTEN” “ESTABLISHED”
 
-# check last user:
+# Check last user:
 
 last
 cat /var/log/secure* |grep ssh |grep Accept  
