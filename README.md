@@ -71,3 +71,8 @@ cat/proc/version
 # journalctl  
 journalctl -u networking.service  
 journalctl --since "2018-10-16 13:28"  
+
+  
+  
+  
+https://explainshell.com
