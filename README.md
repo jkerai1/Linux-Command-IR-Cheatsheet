@@ -6,7 +6,7 @@ cat /etc/shadow
 cat etc/passwd
 
 # Check Open Connections:
-netstat -natp (display all,address port,offload state,proto)
+netstat -natp (display all,address port,offload state,proto)  
 netstat -la | grep “LISTEN” “ESTABLISHED”
 
 # Check last user:
