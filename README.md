@@ -23,7 +23,7 @@ ls /proc/*/exe -la
 
 
 # Bash History:
-cat .bash_history 
+cat .bash_history  
 su <user> then history
 
 # Check Cron Jobs
