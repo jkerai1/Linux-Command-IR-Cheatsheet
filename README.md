@@ -32,11 +32,6 @@ find / -mtime -o -ctime -5
 # Check rootkit 
 sudo chkrootkit (sudo apt install chkrootkit)
 
-# Check common files, see what doesn't belong:
-ls /tmp -lab  
-ls /var/tmp -lab  
-ls /dev/shm -lab    
-
 # Logs: 
 cd /var/log  
 cat syslog | less  
@@ -68,6 +63,12 @@ service --status-all | column
 
 uname -a   
 cat/proc/version  
+  
+# Check common files, see what doesn't belong:
+ls /tmp -lab  
+ls /var/tmp -lab  
+ls /dev/shm -lab    
+
   
 # journalctl:  
 journalctl -u networking.service  
