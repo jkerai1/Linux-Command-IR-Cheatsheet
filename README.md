@@ -75,7 +75,9 @@ journalctl -u networking.service
 journalctl --since "2018-10-16 13:28"  
 
   
+ # Using netstat and PS together:  
   
+ netstat -anp | grep ESTABLISHED | awk {'print $7}' | awk -F '/' {'print $1'} | uniq` ; do ps -eo pid,uid,ruser,etime | grep $i ; done  
   
 https://explainshell.com
 https://github.com/la3ar0v/TuxResponse
