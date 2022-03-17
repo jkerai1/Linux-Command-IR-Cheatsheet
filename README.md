@@ -59,6 +59,11 @@ cat /var/log/yum.log  (if yum is used to install packages)
 cat /var/log/wtmp    - login records  
 cat /var/log/ufw  - firewall log  
 cat /var/log/dpkg.log  - package log  
+  
+# Cron  
+crontab -l  
+ls -la /etc/cron.hourly  
+ls -la /etc/cron.daily  
 
 # Services:
 service --status-all | column  
