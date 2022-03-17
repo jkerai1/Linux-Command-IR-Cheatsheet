@@ -26,10 +26,6 @@ ls /proc/*/exe -la
 cat .bash_history  
 su <user> then history
 
-# Check Cron Jobs
-crontab -l 
-ls -la /etc/cron.daily
-
 # Modified Files: 
 find / -mtime -o -ctime -5
 
