@@ -78,3 +78,5 @@ journalctl --since "2018-10-16 13:28"
   
   
 https://explainshell.com
+https://github.com/la3ar0v/TuxResponse
+https://github.com/FSecureLABS/LinuxCatScale
