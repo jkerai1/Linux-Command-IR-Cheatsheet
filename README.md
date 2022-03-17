@@ -11,7 +11,7 @@ netstat -la | grep “LISTEN” “ESTABLISHED”
 
 # Check last user:
 
-last
+last  
 cat /var/log/secure* |grep ssh |grep Accept  
 cat /var/log/secure* |grep ftp |grep Accept 
 
