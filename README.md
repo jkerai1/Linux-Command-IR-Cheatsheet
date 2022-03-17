@@ -61,8 +61,8 @@ cat /var/log/ufw  - firewall log
 cat /var/log/dpkg.log  - package log  
   
 # Cron  
-crontab -l  
-ls -la /etc/cron.hourly  
+crontab -l   
+ls -la /etc/cron.hourly   
 ls -la /etc/cron.daily  
 
 # Services:
