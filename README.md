@@ -2,7 +2,7 @@
 
 # Check Users:
 
-cat /etc/shadow 
+cat /etc/shadow  
 cat etc/passwd
 
 # Check Open Connections:
