@@ -20,7 +20,7 @@ cat /var/log/secure* |grep ftp |grep Accept
 ps -elf   
 ps auxf  
 ls /proc/*/exe -la   
-
+**you can use strings and pipe into less for proc**
 
 # Bash History:
 cat .bash_history  
