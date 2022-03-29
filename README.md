@@ -8,6 +8,7 @@ cat etc/passwd
 # Check Open Connections:
 netstat -natp (display all,address port,offload state,proto)  
 netstat -la | grep “LISTEN” “ESTABLISHED”
+lsof -i -P
 
 # Check last user:
 
